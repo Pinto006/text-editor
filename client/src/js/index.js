@@ -16,9 +16,9 @@ const loadSpinner = () => {
   `;
   main.appendChild(spinner);
 };
-
+console.log('after load spinner')
 const editor = new Editor();
-
+console.log('after editor')
 if (typeof editor === 'undefined') {
   loadSpinner();
 }
