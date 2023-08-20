@@ -27,7 +27,7 @@ return result?.value;
 };
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => {
+export const getDb = async () => { 
   // console.error('getDb not implemented');
 const indexDb = await openDB('jate', 1);
 console.log("getDb before transaction")
